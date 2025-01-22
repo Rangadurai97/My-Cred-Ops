@@ -12,7 +12,7 @@ public class EmployeeDAO {
 	
 	public String post(Employee emp) {
 		er.save(emp);
-		return "Posted Successfully";
+		return "Posted Yes";
 	}
 	
 	
